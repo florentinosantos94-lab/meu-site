@@ -119,11 +119,21 @@ html {
 .tecnologia p {
     margin: 0;
 }
+
+.projetos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
 @media (max-width: 600px) {
-    .tecnologias {
+    .tecnologias,
+    .projetos {
         grid-template-columns: 1fr;
     }
 }
+
 .projeto {
     margin-top: 20px;
     padding: 25px;

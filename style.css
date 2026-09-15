@@ -25,7 +25,20 @@ header p {
     margin: 0;
     font-size: 18px;
 }
+nav {
+    margin-top: 25px;
+}
 
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
 main {
     max-width: 800px;
     margin: 40px auto;
@@ -80,4 +93,7 @@ ul {
 
 li {
     margin-bottom: 8px;
+}
+html {
+    scroll-behavior: smooth;
 }

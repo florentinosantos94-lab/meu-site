@@ -124,3 +124,32 @@ html {
         grid-template-columns: 1fr;
     }
 }
+.projeto {
+    margin-top: 20px;
+    padding: 25px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.projeto h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.projeto p {
+    margin-bottom: 15px;
+}
+
+.projeto a {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.projeto a:hover {
+    opacity: 0.8;
+}

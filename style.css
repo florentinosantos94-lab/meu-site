@@ -163,3 +163,32 @@ html {
 .projeto a:hover {
     opacity: 0.8;
 }
+.hero {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    margin-bottom: 15px;
+    font-size: 42px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.botao-projetos {
+    display: inline-block;
+    padding: 12px 20px;
+    background: white;
+    color: #222;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.botao-projetos:hover {
+    opacity: 0.8;
+}

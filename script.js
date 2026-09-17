@@ -10,5 +10,5 @@ function mostrarMensagem() {
     mensagem.id = "mensagem";
     mensagem.textContent = "Obrigado por visitar meu site! 🚀";
 
-    document.querySelector("section").appendChild(mensagem);
+    document.querySelector("#sobre").appendChild(mensagem);
 }

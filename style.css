@@ -143,8 +143,11 @@ html {
     .projetos {
         grid-template-columns: 1fr;
     }
-}
 
+    .hero h1 {
+        font-size: 32px;
+    }
+}
 .projeto {
     margin-top: 20px;
     padding: 25px;
